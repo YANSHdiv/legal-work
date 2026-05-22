@@ -42,7 +42,7 @@ To run this project locally on your machine:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/ShubhamKrishna0/legal-work.git
+   git clone https://github.com/YANSHdiv/legal-work.git
    cd legal-work
    ```
 
