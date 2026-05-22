@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  <h1>⚖️ Legal Work Platform</h1>
+  <p><strong>A highly interactive, premium Floating Hero Section designed for modern legal workflows.</strong></p>
 
-## Getting Started
+  [![Next.js](https://img.shields.io/badge/Next.js-15.0-black?logo=next.js&logoColor=white)](https://nextjs.org/)
+  [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+  [![Framer Motion](https://img.shields.io/badge/Framer_Motion-Interactive-FF0055?logo=framer&logoColor=white)](https://www.framer.com/motion/)
+  [![Deployed on Render](https://img.shields.io/badge/Deployed_on-Render-46E3B7?logo=render&logoColor=white)](https://legal-work.onrender.com)
+</div>
 
-First, run the development server:
+<br />
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Live Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Experience the interactivity live:** [https://legal-work.onrender.com](https://legal-work.onrender.com)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✨ Features & UX Highlights
 
-## Learn More
+This project was built to demonstrate deep frontend engineering skills, specifically focusing on micro-interactions, physics-based animations, and premium UI aesthetics.
 
-To learn more about Next.js, take a look at the following resources:
+- **Interactive 3D Glassmorphism**: Cards feature real-time 3D tilt calculations (`rotateX` / `rotateY`) based on cursor position. They include inset specular highlights to accurately simulate frosted glass depth.
+- **Physics-Based Dragging**: All floating cards are fully draggable using spring physics, allowing users to playfully interact with the hero section.
+- **Dynamic Mouse Spotlight**: A subtle radial gradient illuminates the background, perfectly tracking the user's cursor across the entire screen.
+- **Parallax Background**: The background "pill" shapes organically drift in the opposite direction of the mouse, creating a strong sense of depth.
+- **Staggered Spring Reveal**: The main typography utilizes a staggered, spring-based character/word reveal animation on load, a hallmark of premium agency websites.
+- **Responsive Design**: Gracefully degrades and reorganizes layout for mobile devices to maintain readability without sacrificing aesthetic quality.
+- **Dark Mode Ready**: Fully customized `dark:` mode with inverted gradients, shadows, and tailored text colors.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Framework**: Next.js 15 (App Router)
+- **Styling**: Tailwind CSS v4
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **Deployment**: Render
 
-## Deploy on Vercel
+## 💻 Getting Started
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+To run this project locally on your machine:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/ShubhamKrishna0/legal-work.git
+   cd legal-work
+   ```
+
+2. **Install dependencies:**
+   *(Note: This project uses `--legacy-peer-deps` via `.npmrc` to gracefully handle React 19 / Next 15 peer dependency resolution)*
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **View the project:**
+   Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+<div align="center">
+  <i>Designed and developed as a frontend engineering showcase.</i>
+</div>
