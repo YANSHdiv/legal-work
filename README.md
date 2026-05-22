@@ -1,53 +1,36 @@
-# Round-1-Task
-Assignment: "The Floating Hero Section"
-Objective Replicate the "Legal Work Platform" hero section shown in the design screenshot as closely as possible using Next.js.
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Design Assets
+## Getting Started
 
-  Reference Image: <img width="1440" height="862" alt="Chota Landing Page" src="https://github.com/user-attachments/assets/8d6f8977-f434-47bf-bb99-7fe66b72758c" />
+First, run the development server:
 
-  Icons: Use an icon library like lucide-react or heroicons (e.g., Gavel for "Matters", FileText for "Documents", CheckSquare for "Tasks").
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-  Font: Use a standard geometric sans-serif font (e.g., Inter or Plus Jakarta Sans from Google Fonts).
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Core Requirements
-  The Layout (CSS Mastery)
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-    Implement the split layout: Text content on the left, "floating elements" visualization on the right.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-    The "pills" (Billing, Matters, Tasks, etc.) must be positioned and rotated to match the visual "chaotic but organized" aesthetic.
+## Learn More
 
-    Constraint: The layout must be responsive. On mobile devices, the floating elements should either stack gracefully or be hidden/simplified.
+To learn more about Next.js, take a look at the following resources:
 
-Component Architecture
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-  Create a reusable FloatingCard component. It should accept props for:
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-    color (Blue, Orange, Dark, etc.)
+## Deploy on Vercel
 
-    rotation (The angle of the card)
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-    icon and label
-
-The "John Doe - Portal" card is unique. The candidate should demonstrate how they handle a "variant" or a specific slot within their component structure to accommodate this different layout.
-
-Visual Polish
-
-  Implement the blurred background shapes (the light blue blobs behind the content).
-
-Match the typography hierarchy (H1 vs. subtext).
-
-Bonus (Extra Marks ⭐)
-
-Candidates will receive extra marks if they implement:
-
-🌙 Dark Mode Support
-
-✨ Subtle Animations (e.g., floating motion, hover effects, fade-in transitions)
-
-⚡ Smooth entrance animations using Framer Motion or CSS
-
-Technical Stack
-  Framework: Next.js 14+ (App Router).
-
-  Styling: Tailwind CSS is preferred (to see how they handle arbitrary values like rotate-[12deg]), but CSS Modules are acceptable.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
